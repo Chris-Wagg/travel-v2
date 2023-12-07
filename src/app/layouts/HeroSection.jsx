@@ -1,5 +1,6 @@
 import Navbar from '../components/Navbar'
 import CenterNav from '../components/CenterNav'
+import StatCards from '../components/StatCards'
 
 export default function HeroSection() {
 	return (
@@ -12,6 +13,7 @@ export default function HeroSection() {
 				</h1>
 				<p className='sub-title'>For all the Lord of the Rings nerds</p>
 				<CenterNav />
+				<StatCards />
 			</section>
 		</main>
 	)
