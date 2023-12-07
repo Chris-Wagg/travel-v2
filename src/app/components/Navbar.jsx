@@ -9,7 +9,7 @@ export default function Navbar() {
 				<button>Contact</button>
 				<button>Contact</button>
 			</nav>
-			<button className='login-button'>Login</button>
+			<button className='white-button'>Login</button>
 		</header>
 	)
 }

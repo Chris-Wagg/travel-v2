@@ -55,7 +55,7 @@ main {
 }
 
 /* login button */
-.login-button {
+.white-button {
 	border: 0;
 	background-color: whitesmoke;
 	padding: 0.7rem 2rem 0.7rem 2rem;
@@ -65,6 +65,6 @@ main {
 	transition: all 0.1s ease-in-out;
 }
 
-.login-button:hover {
+.white-button:hover {
 	transform: scale(1.2);
 }
