@@ -63,8 +63,8 @@ main {
 	font-weight: 600;
 }
 
-/* middle nav */
-.nav-controls {
+/* top nav */
+.top-nav-controls {
 	display: flex;
 	flex-wrap: wrap;
 	flex-shrink: 1;
@@ -80,19 +80,19 @@ main {
 	border: 1px solid rgba(255, 255, 255, 0.3);
 }
 
-.nav-controls > * {
+.top-nav-controls > * {
 	border: 0;
 	background: 0;
 	color: whitesmoke;
-	/* padding: 5px 10px 5px 10px; */
-	font-size: 16px;
+	padding: 5px 10px 5px 10px;
+	font-size: 14px;
 	font-weight: 600;
 	transition: all 0.1s ease-in-out;
 }
 
-.nav-controls > button:hover {
-	/* color: black; */
-	transform: scale(1.2);
+.top-nav-controls > button:hover {
+	color: black;
+	transform: scale(1.1);
 }
 
 /* login button */
@@ -100,7 +100,7 @@ main {
 	border: 0;
 	color: black;
 	background-color: whitesmoke;
-	padding: 0.7rem 2rem 0.7rem 2rem;
+	padding: 0.5rem 1.5rem 0.5rem 1.5rem;
 	border-radius: 25px;
 	font-size: 16px;
 	font-weight: 600;
@@ -108,7 +108,7 @@ main {
 }
 
 .login-button:hover {
-	transform: scale(1.2);
+	transform: scale(1.1);
 }
 
 /* hero section */
@@ -129,6 +129,57 @@ main {
 
 .sub-title {
 	font-size: 24px;
+}
+
+/* middle nav */
+
+.central-nav-controls {
+	display: flex;
+	flex-wrap: wrap;
+	flex-shrink: 1;
+	padding: 2px 2px 2px 2rem;
+	background: rgba(160, 160, 160, 0.5);
+	border-radius: 25px;
+	box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+	backdrop-filter: blur(4px);
+	-webkit-backdrop-filter: blur(6px);
+	border: 1px solid rgba(255, 255, 255, 0.3);
+}
+
+.central-nav-controls > div {
+	display: flex;
+	justify-content: space-between;
+}
+
+.central-nav-controls > div > * {
+	border: 0;
+	background: 0;
+	color: whitesmoke;
+	/* padding: 5px 10px 5px 10px; */
+	font-size: 16px;
+	font-weight: 500;
+	transition: all 0.1s ease-in-out;
+}
+
+.central-nav-controls > button:hover {
+	color: black;
+	transform: scale(1.1);
+}
+
+/* login button */
+.central-nav-controls > div > .search-button {
+	border: 0;
+	color: black;
+	background-color: whitesmoke;
+	padding: 0.5rem 1.5rem 0.5rem 1.5rem;
+	border-radius: 25px;
+	font-size: 16px;
+	font-weight: 600;
+	transition: all 0.1s ease-in-out;
+}
+
+.login-button:hover {
+	transform: scale(1.1);
 }
 
 /* stat cards */

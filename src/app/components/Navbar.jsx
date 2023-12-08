@@ -2,7 +2,7 @@ export default function Navbar() {
 	return (
 		<header className='header-container breakout '>
 			<p>M.E. Travel</p>
-			<nav className='nav-controls'>
+			<nav className='top-nav-controls'>
 				<button>About</button>
 				<button>Services</button>
 				<button>Tours</button>
