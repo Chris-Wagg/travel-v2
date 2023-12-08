@@ -4,17 +4,16 @@ import StatCards from '../components/StatCards'
 
 export default function HeroSection() {
 	return (
-		<main>
+		<main className='content-grid'>
 			<Navbar />
-			<section className='hero-content'>
-				<h1 className='title'>
-					Middle Earth Travel, the truely authentic New Zealand
-					Experience
-				</h1>
-				<p className='sub-title'>For all the Lord of the Rings nerds</p>
-				<CenterNav />
-				<StatCards />
-			</section>
+			<h1 className='title'>
+				Middle Earth Travel, the truely authentic New Zealand Experience
+			</h1>
+			<p className='sub-title content'>
+				For all the Lord of the Rings nerds
+			</p>
+			<CenterNav />
+			<StatCards />
 		</main>
 	)
 }

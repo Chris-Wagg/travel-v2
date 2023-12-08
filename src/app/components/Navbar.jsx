@@ -1,6 +1,6 @@
 export default function Navbar() {
 	return (
-		<header className='header-container'>
+		<header className='header-container breakout '>
 			<p>M.E. Travel</p>
 			<nav className='nav-controls'>
 				<button>About</button>
