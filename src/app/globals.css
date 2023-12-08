@@ -80,7 +80,7 @@ main {
 	border: 1px solid rgba(255, 255, 255, 0.3);
 }
 
-.nav-controls > button {
+.nav-controls > * {
 	border: 0;
 	background: 0;
 	color: #6b7280;
@@ -96,8 +96,9 @@ main {
 }
 
 /* login button */
-.white-button {
+.login-button {
 	border: 0;
+	color: black;
 	background-color: whitesmoke;
 	padding: 0.7rem 2rem 0.7rem 2rem;
 	border-radius: 25px;
@@ -106,7 +107,7 @@ main {
 	transition: all 0.1s ease-in-out;
 }
 
-.white-button:hover {
+.login-button:hover {
 	transform: scale(1.2);
 }
 
