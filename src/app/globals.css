@@ -3,36 +3,10 @@ body {
 	margin: 0;
 }
 
-main {
-	background-image: url(https://images.unsplash.com/photo-1465056836041-7f43ac27dcb5?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=2071&q=80);
-	width: 100%;
-	background-size: cover;
-	background-repeat: no-repeat;
-}
-
 .content-grid {
-	--padding-inline: 2rem;
-	--content-max-width: 900px;
-	--breakout-max-width: 1200px;
-
-	--breakout-size: calc(
-		(var(--breakout-max-width) - var(--content-max-width)) / 2
-	);
-
 	display: grid;
-	grid-template-columns:
-		[fullwidth-start] minmax(var(--padding-inline), 1fr)
-		[breakout-start] minmax(0, var(--breakout-size))
-		[content-start] min(
-			100% - (var(--padding-inline) * 2),
-			var(--content-max-width)
-		)
-		[content-end]
-		minmax(0, var(--breakout-size)) [breakout-end]
-		minmax(var(--padding-inline), 1fr) [fullwidth-end];
-
-	justify-items: center;
 	text-align: center;
+	grid-template-columns: 10px[full-width-start] 1fr [left-side-start] 1fr [breakout-start left-side-end] 1fr [content-start] 1fr [content-end] 1fr [breakout-end right-side-start] 1fr [right-side-end] 1fr [full-width-end] 10px;
 }
 
 .content-grid > * {
@@ -41,153 +15,13 @@ main {
 .content-grid > .breakout {
 	grid-column: breakout;
 }
-.content-grid > .fullwidth {
-	grid-column: fullwidth;
+.content-grid > .full-width {
+	grid-column: full-width;
 }
 
-/* Header and nav */
-
-.header-container {
-	/* border: 1px solid red; */
-	display: flex;
-	gap: 20px;
-	align-items: center;
-	justify-content: space-between;
-	width: 100%;
+.content-grid > .left-side {
+	grid-column: left-side;
 }
-
-/* logo button */
-.header-container > p {
-	color: white;
-	font-size: 32px;
-	font-weight: 600;
-}
-
-/* top nav */
-.top-nav-controls {
-	display: flex;
-	justify-content: space-around;
-	flex: 1;
-	flex-shrink: 1;
-	padding: 1% 4% 1% 4%;
-	background: rgba(160, 160, 160, 0.5);
-	border-radius: 25px;
-	box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
-	backdrop-filter: blur(4px);
-	-webkit-backdrop-filter: blur(6px);
-	border: 1px solid rgba(255, 255, 255, 0.3);
-}
-
-.top-nav-controls > * {
-	border: 0;
-	background: 0;
-	color: whitesmoke;
-	padding: 5px 10px 5px 10px;
-	font-size: 14px;
-	font-weight: 600;
-	transition: all 0.1s ease-in-out;
-}
-
-.top-nav-controls > button:hover {
-	color: black;
-	transform: scale(1.1);
-}
-
-/* login button */
-.login-button {
-	border: 0;
-	color: black;
-	background-color: whitesmoke;
-	padding: 0.5rem 1.5rem 0.5rem 1.5rem;
-	border-radius: 25px;
-	font-size: 16px;
-	font-weight: 600;
-	transition: all 0.1s ease-in-out;
-}
-
-.login-button:hover {
-	transform: scale(1.1);
-}
-
-/* hero section */
-
-.hero-content {
-	border: 1px solid red;
-	display: flex;
-	flex-direction: column;
-	align-items: center;
-	justify-content: space-around;
-	text-align: center;
-}
-
-.title {
-	font-size: 42px;
-	font-weight: 700;
-}
-
-.sub-title {
-	font-size: 24px;
-}
-
-/* middle nav */
-
-.central-nav-controls {
-	display: flex;
-	flex-wrap: wrap;
-	flex-shrink: 1;
-	padding: 2px 2px 2px 2rem;
-	background: rgba(160, 160, 160, 0.5);
-	border-radius: 25px;
-	box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
-	backdrop-filter: blur(4px);
-	-webkit-backdrop-filter: blur(6px);
-	border: 1px solid rgba(255, 255, 255, 0.3);
-}
-
-.central-nav-controls > div {
-	display: flex;
-	justify-content: space-between;
-}
-
-.central-nav-controls > div > * {
-	border: 0;
-	background: 0;
-	color: whitesmoke;
-	/* padding: 5px 10px 5px 10px; */
-	font-size: 16px;
-	font-weight: 500;
-	transition: all 0.1s ease-in-out;
-}
-
-.central-nav-controls > button:hover {
-	color: black;
-	transform: scale(1.1);
-}
-
-/* login button */
-.central-nav-controls > div > .search-button {
-	border: 0;
-	color: black;
-	background-color: whitesmoke;
-	padding: 0.5rem 1.5rem 0.5rem 1.5rem;
-	border-radius: 25px;
-	font-size: 16px;
-	font-weight: 600;
-	transition: all 0.1s ease-in-out;
-}
-
-.login-button:hover {
-	transform: scale(1.1);
-}
-
-/* stat cards */
-
-.stat-cards {
-	display: flex;
-	gap: 3rem;
-}
-
-.stat-cards > div {
-	border: 1px solid red;
-	background-color: whitesmoke;
+.content-grid > .right-side {
+	grid-column: right-side;
 }
