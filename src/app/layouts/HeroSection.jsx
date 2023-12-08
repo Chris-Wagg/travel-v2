@@ -6,7 +6,7 @@ export default function HeroSection() {
 	return (
 		<main className='content-grid'>
 			<Navbar />
-			<h1 className='title'>
+			<h1 className='title breakout'>
 				Middle Earth Travel, the truely authentic New Zealand Experience
 			</h1>
 			<p className='sub-title content'>
