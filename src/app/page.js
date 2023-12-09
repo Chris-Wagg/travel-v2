@@ -3,8 +3,8 @@ export default function Home() {
 		<main className='content-grid'>
 			<div className='background-container full-width full-height'></div>
 			<header className='header-container header-row breakout'>
-				<div className='title'>Title</div>
-				<nav className='nav-container'>
+				<div className='title'>M.E. Travel</div>
+				<nav className='nav-container smoke-background'>
 					<button>one</button>
 					<button>two</button>
 					<button>three</button>
@@ -22,7 +22,7 @@ export default function Home() {
 				</p>
 			</section>
 			<section className='central-nav-row'>
-				<div className='central-nav '>
+				<div className='central-nav smoke-background'>
 					<button>one</button>
 					<button>two</button>
 					<button>three</button>
