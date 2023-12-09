@@ -24,9 +24,10 @@ export default function Home() {
 				</p>
 				<div className='central-nav smoke-background'>
 					<div className='central-nav-buttons'>
-						<button>one</button>
-						<button>two</button>
-						<button>three</button>
+						<button>Dates</button>
+						<button>Guests</button>
+						<button>Locations</button>
+						<button>Guides</button>
 					</div>
 					<button className='white-button'>search</button>
 				</div>
