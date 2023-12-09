@@ -1,7 +1,8 @@
 export default function Home() {
 	return (
 		<main className='content-grid'>
-			<header className='header-container header-row'>
+			<div className='background-container full-width full-height'></div>
+			<header className='header-container header-row breakout'>
 				<div>Title</div>
 				<nav className='nav-container'>
 					<button>one</button>
