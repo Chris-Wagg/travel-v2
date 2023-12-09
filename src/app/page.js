@@ -10,8 +10,8 @@ export default function Home() {
 					<button>three</button>
 					<button>four</button>
 					<button>five</button>
+					<button className='login-button'>Login</button>
 				</nav>
-				<button className='login-button'>Login</button>
 			</header>
 			<section className='hero-text breakout hero-text-row'>
 				<h1 className='title'>
