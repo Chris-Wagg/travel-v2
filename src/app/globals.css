@@ -25,3 +25,9 @@ body {
 .content-grid > .right-side {
 	grid-column: right-side;
 }
+.content-grid > .far-right-side {
+	grid-column: right-side-end / full-width-end;
+}
+.content-grid > .far-left-side {
+	grid-column: full-width-start / left-side-start;
+}
