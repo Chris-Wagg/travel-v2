@@ -5,13 +5,15 @@ export default function Home() {
 			<header className='header-container header-row breakout'>
 				<div className='title'>M.E. Travel</div>
 				<nav className='nav-container smoke-background'>
-					<button>one</button>
-					<button>two</button>
-					<button>three</button>
-					<button>four</button>
-					<button>five</button>
-					<button className='login-button'>Login</button>
+					<button>About</button>
+					<button>Services</button>
+					<button>Tours</button>
+					<button>Contact</button>
+					<button>About</button>
 				</nav>
+				<div>
+					<button className='login-button'>Login</button>
+				</div>
 			</header>
 			<section className='hero-text breakout hero-text-row'>
 				<h1 className='title'>
