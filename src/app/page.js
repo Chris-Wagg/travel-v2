@@ -15,11 +15,10 @@ export default function Home() {
 			</header>
 			<section className='hero-text breakout hero-text-row'>
 				<h1 className='title'>
-					this is hero text that will sit in the breakout area
+					The definitive New Zealand travel experience
 				</h1>
 				<p className='sub-title'>
-					this is also hero text but smaller taht will also sit in the
-					breakout hopefully if it is long enough
+					With all the best Lord of the Rings filming locations
 				</p>
 			</section>
 			<section className='central-nav-row'>
