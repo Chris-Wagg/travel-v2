@@ -20,12 +20,12 @@ export default function Home() {
 				<p className='sub-title'>
 					With all the best Lord of the Rings filming locations
 				</p>
-			</section>
-			<section className='central-nav-row'>
 				<div className='central-nav smoke-background'>
-					<button>one</button>
-					<button>two</button>
-					<button>three</button>
+					<div className='central-nav-buttons'>
+						<button>one</button>
+						<button>two</button>
+						<button>three</button>
+					</div>
 					<button className='white-button'>search</button>
 				</div>
 			</section>
