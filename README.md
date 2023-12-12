@@ -17,3 +17,7 @@ bun dev
 Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
 
 You can start editing the page by modifying `app/page.js`. The page auto-updates as you edit the file.
+
+Photo by <a href="https://unsplash.com/@henry2cute?utm_content=creditCopyText&utm_medium=referral&utm_source=unsplash">Henry Xu</a> on <a href="https://unsplash.com/photos/brown-house-with-moss-X-eekRFSieM?utm_content=creditCopyText&utm_medium=referral&utm_source=unsplash">Unsplash</a>
+
+Photo by <a href="https://unsplash.com/@sycl?utm_content=creditCopyText&utm_medium=referral&utm_source=unsplash">Sylvain Cleymans</a> on <a href="https://unsplash.com/photos/a-snow-covered-mountain-in-the-distance-under-a-cloudy-sky-ytaQuOhzCK8?utm_content=creditCopyText&utm_medium=referral&utm_source=unsplash">Unsplash</a>
