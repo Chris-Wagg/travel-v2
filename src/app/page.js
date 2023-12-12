@@ -29,7 +29,7 @@ export default function Home() {
 						<button>Locations</button>
 						<button>Guides</button>
 					</div>
-					<button className='white-button'>search</button>
+					<button className='white-button'>Search</button>
 				</div>
 			</section>
 			<section className='stat-cards stat-card-row'>
