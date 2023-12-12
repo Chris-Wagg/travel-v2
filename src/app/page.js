@@ -15,9 +15,10 @@ export default function Home() {
 					<button className='login-button'>Login</button>
 				</div>
 			</header>
-			<section className='hero-text breakout hero-text-row'>
+			<section className='hero-text content hero-text-row'>
 				<h1 className='title'>
-					The definitive New Zealand travel experience
+					Middle Earth Travel : The definitive New Zealand travel
+					experience
 				</h1>
 				<p className='sub-title'>
 					With all the best Lord of the Rings filming locations
@@ -32,7 +33,7 @@ export default function Home() {
 					<button className='white-button'>Search</button>
 				</div>
 			</section>
-			<section className='stat-cards stat-card-row breakout'>
+			<section className='stat-cards stat-card-row content'>
 				<div className='single-card'>
 					<p>100,000+</p>
 					<p>Total customers</p>
