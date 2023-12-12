@@ -113,6 +113,7 @@ body {
 	font-size: 16px;
 	font-weight: 600;
 	transition: all 0.1s ease-in-out;
+	margin-right: 5px;
 }
 
 .login-button:hover,
@@ -163,6 +164,9 @@ body {
 	border: 0;
 	border-right: 1px solid white;
 	background: 0;
+	padding: 5px;
+	font-size: 18px;
+	margin: 8px;
 }
 
 .central-nav-buttons > button:nth-last-child(1) {
