@@ -1,5 +1,7 @@
 import { Poppins } from 'next/font/google'
 import './globals.css'
+import '@radix-ui/themes/styles.css'
+import { Theme } from '@radix-ui/themes'
 
 const poppins = Poppins({
 	subsets: ['latin'],
@@ -16,7 +18,9 @@ export const metadata = {
 export default function RootLayout({ children }) {
 	return (
 		<html className={`${poppins.variable}`}>
-			<body>{children}</body>
+			<body>
+				<Theme>{children}</Theme>
+			</body>
 		</html>
 	)
 }
