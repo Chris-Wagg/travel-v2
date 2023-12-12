@@ -32,22 +32,22 @@ export default function Home() {
 					<button className='white-button'>Search</button>
 				</div>
 			</section>
-			<section className='stat-cards stat-card-row'>
+			<section className='stat-cards stat-card-row breakout'>
 				<div className='single-card'>
-					<p>number</p>
-					<p>text under number</p>
+					<p>100,000+</p>
+					<p>Total customers</p>
 				</div>
 				<div className='single-card'>
-					<p>number</p>
-					<p>text under number</p>
+					<p>08+</p>
+					<p>Years of experience</p>
 				</div>
 				<div className='single-card'>
-					<p>number</p>
-					<p>text under number</p>
+					<p>5,000+</p>
+					<p>Tours run</p>
 				</div>
 				<div className='single-card'>
-					<p>number</p>
-					<p>text under number</p>
+					<p>4.8</p>
+					<p>Average rating</p>
 				</div>
 			</section>
 		</main>

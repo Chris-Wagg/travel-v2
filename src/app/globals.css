@@ -9,7 +9,7 @@ body {
 	text-align: center;
 	grid-template-columns: 1rem [full-width-start] auto [left-side-start] auto [breakout-start right-side-start] auto [content-start] auto [content-end] auto [breakout-end left-side-end] auto [right-side-end] auto [full-width-end] 1rem;
 
-	grid-template-rows: 1rem [full-height-start] 1rem [header-row-start] auto [header-row-end] auto [hero-text-row-start] auto [hero-text-row-end central-nav-row-start] auto [central-nav-row-end] auto [stat-card-row-start] auto [full-height-end] 3rem [stat-card-row-end];
+	grid-template-rows: 1rem [full-height-start] 1rem [header-row-start] auto [header-row-end] auto [hero-text-row-start] auto [hero-text-row-end central-nav-row-start] auto [central-nav-row-end] auto [stat-card-row-start] auto [full-height-end] 5rem [stat-card-row-end];
 
 	height: 100vh;
 }
@@ -176,12 +176,24 @@ body {
 /* stat cards */
 
 .stat-cards {
-	display: flex;
-	justify-content: space-evenly;
+	display: grid;
+	grid-template-columns: 1fr 1fr 1fr 1fr;
+	gap: 20px;
 	align-items: center;
 }
 
 .stat-cards > div {
-	border: 1px solid red;
-	background-color: whitesmoke;
+	/* border: 1px solid red; */
+	background-color: white;
+	border-radius: 25px;
+	box-shadow: 0px 10px 40px 5px rgba(0, 0, 0, 0.2);
+}
+
+.stat-cards > div > :nth-child(1) {
+	font-size: 32px;
+	font-weight: 700;
+	margin: 16px;
+}
+.stat-cards > div > :nth-child(2) {
+	font-size: 16px;
 }
