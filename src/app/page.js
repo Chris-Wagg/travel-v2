@@ -81,6 +81,20 @@ export default function Home() {
 					<p>Hobbit walking tours</p>
 				</div>
 			</section>
+			<section>
+				<div>image with overlay</div>
+				<section>
+					<div>How it works</div>
+					<div>One click and done!</div>
+					<div>
+						<div>icon</div>
+						<div>
+							<h3>Top text</h3>
+							<p>bottom text</p>
+						</div>
+					</div>
+				</section>
+			</section>
 		</>
 	)
 }
