@@ -64,21 +64,21 @@ export default function Home() {
 				</p>
 			</div>
 			<section className='location-cards-container'>
-				<div className='card background-1 box-shadow'>
+				<div className='card card-background-1 box-shadow'>
 					<p>The Shire</p>
 					<p>Hobbit tours package</p>
 				</div>
-				<div className='card box-shadow'>
-					<p>Location name</p>
-					<p>tour name here</p>
+				<div className='card box-shadow card-background-2'>
+					<p>Mount Doom</p>
+					<p>North Island tours</p>
 				</div>
-				<div className='card box-shadow'>
-					<p>Location name</p>
-					<p>tour name here</p>
+				<div className='card box-shadow card-background-3'>
+					<p>River Anduin</p>
+					<p>River tours package</p>
 				</div>
-				<div className='card box-shadow'>
-					<p>Location name</p>
-					<p>tour name here</p>
+				<div className='card box-shadow card-background-4'>
+					<p>Mordor</p>
+					<p>Hobbit walking tours</p>
 				</div>
 			</section>
 		</>
