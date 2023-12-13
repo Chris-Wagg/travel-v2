@@ -21,9 +21,9 @@ export default function Home() {
 						Middle Earth Travel : The definitive New Zealand travel
 						experience
 					</h1>
-					<p className='sub-title'>
+					<h2 className='sub-title'>
 						With all the best Lord of the Rings filming locations
-					</p>
+					</h2>
 					<div className='central-nav smoke-background'>
 						<div className='central-nav-buttons'>
 							<button>Dates</button>
@@ -34,20 +34,20 @@ export default function Home() {
 						<button className='white-button'>Search</button>
 					</div>
 				</section>
-				<section className='stat-cards stat-card-row content'>
-					<div className='single-card'>
+				<section className='stat-cards-container stat-card-row content'>
+					<div className='single-card box-shadow'>
 						<p>100,000+</p>
 						<p>Total customers</p>
 					</div>
-					<div className='single-card'>
+					<div className='single-card box-shadow'>
 						<p>08+</p>
 						<p>Years of experience</p>
 					</div>
-					<div className='single-card'>
+					<div className='single-card box-shadow'>
 						<p>5,000+</p>
 						<p>Tours run</p>
 					</div>
-					<div className='single-card'>
+					<div className='single-card box-shadow'>
 						<p>4.8</p>
 						<p>Average rating</p>
 					</div>
@@ -64,33 +64,21 @@ export default function Home() {
 				</p>
 			</div>
 			<section className='location-cards-container'>
-				{/* <div className='card-background'>
-					<img
-						src='/henry-xu.jpg'
-						alt='hobit house'
-						className='background-image'
-					/>
-					<div className='overlay-text'>
-						<h3>Bilbo's house</h3>
-						<h4>Hobbiton tour</h4>
-					</div>
+				<div className='card background-1 box-shadow'>
+					<p>The Shire</p>
+					<p>Hobbit tours package</p>
 				</div>
-				<div className='card-background'>
-					<img
-						src='/sylvain.jpg'
-						alt='hobit house'
-						className='background-image'
-					/>
-					<div className='overlay-text'>
-						<h3>Bilbo's house</h3>
-						<h4>Hobbiton tour</h4>
-					</div>
-				</div> */}
-				<div className='card-background background-3'>
-					<div className='overlay-text'>
-						<h3>Bilbo's house</h3>
-						<h4>Hobbiton tour</h4>
-					</div>
+				<div className='card box-shadow'>
+					<p>Location name</p>
+					<p>tour name here</p>
+				</div>
+				<div className='card box-shadow'>
+					<p>Location name</p>
+					<p>tour name here</p>
+				</div>
+				<div className='card box-shadow'>
+					<p>Location name</p>
+					<p>tour name here</p>
 				</div>
 			</section>
 		</>
