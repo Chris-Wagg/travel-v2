@@ -21,9 +21,9 @@ export default function Home() {
 						Middle Earth Travel : The definitive New Zealand travel
 						experience
 					</h1>
-					<h2 className='sub-title'>
+					<p className='sub-title'>
 						With all the best Lord of the Rings filming locations
-					</h2>
+					</p>
 					<div className='central-nav smoke-background'>
 						<div className='central-nav-buttons'>
 							<button>Dates</button>
@@ -84,8 +84,8 @@ export default function Home() {
 			<section>
 				<div>image with overlay</div>
 				<section>
-					<div>How it works</div>
-					<div>One click and done!</div>
+					<h2>How it works</h2>
+					<p>One click and done!</p>
 					<div>
 						<div>icon</div>
 						<div>
