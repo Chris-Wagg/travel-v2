@@ -35,7 +35,7 @@ export default function Home() {
 					</div>
 				</section>
 				<section className='stat-cards-container stat-card-row content'>
-					{/* fix these so they wrap */}
+					{/* TO DO : fix these so they wrap */}
 					<div className='single-card box-shadow'>
 						<p>100,000+</p>
 						<p>Total customers</p>
@@ -65,7 +65,7 @@ export default function Home() {
 				</p>
 			</div>
 			<section className='location-cards-container'>
-				{/* fix the wrapping so it wraps 2 at a time so you dont end up with a row of 1 and 3 */}
+				{/* TO DO : fix the wrapping so it wraps 2 at a time so you dont end up with a row of 1 and 3 */}
 				<div className='card card-background-1 box-shadow'>
 					<p>The Shire</p>
 					<p>Hobbit tours package</p>
@@ -84,7 +84,7 @@ export default function Home() {
 				</div>
 			</section>
 			<section className='how-to-container'>
-				{/* fix the image scaling to minmax */}
+				{/* TO DO : fix the image scaling to minmax */}
 				<div className='how-to-image image-container'>
 					<div className='central-nav smoke-background'>
 						<div className='central-nav-buttons'>
@@ -205,6 +205,24 @@ export default function Home() {
 						</div>
 					</div>
 				</section>
+			</section>
+			<section className='reviews-section'>
+				<div className='reviews-text'>
+					<div className='reviews-titles'>
+						<h2>Tour packages</h2>
+						<p>Our favourite destinations</p>
+					</div>
+					<p>
+						Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+						Fusce fermentum, libero nec aliquam fringilla.
+					</p>
+				</div>
+				<div className='review-images'>
+					<div>image one</div>
+					<div>image two</div>
+					<div>image three</div>
+				</div>
+				<button className='view-more-button'>view more</button>
 			</section>
 		</>
 	)

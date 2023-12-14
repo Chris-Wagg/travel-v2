@@ -344,3 +344,18 @@ body {
 .how-to-card-text > * {
 	margin: 5px;
 }
+
+/* reviews section */
+
+.reviews-section {
+	display: flex;
+	flex-direction: column;
+}
+
+.reviews-text {
+	display: flex;
+}
+
+.review-images {
+	display: flex;
+}
