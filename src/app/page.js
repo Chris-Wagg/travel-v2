@@ -206,24 +206,51 @@ export default function Home() {
 					</div>
 				</section>
 			</section>
-			<section className='reviews-section'>
+			<section className='reviews-container'>
 				<div className='reviews-text'>
 					<div className='reviews-titles'>
-						<h2>Tour packages</h2>
-						<p>Our favourite destinations</p>
+						<h2>Tour Packages</h2>
+						<p>Our top tour destinations</p>
 					</div>
 					<p>
 						Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-						Fusce fermentum, libero nec aliquam fringilla.
+						Lorem ipsum dolor sit amet, consectetur adipiscing elit.
 					</p>
 				</div>
-				<div className='review-images'>
-					<div>image one</div>
-					<div>image two</div>
-					<div>image three</div>
+				<div className='review-images-container'>
+					<div className='box-shadow review-image-one'>
+						<div className='review-info-top'>
+							<p className='smoke-background'>5 days</p>
+							<p className='smoke-background'>4.8</p>
+						</div>
+						<div className='review-info-bottom smoke-background'>
+							<p>1st Jan - 5th Jan</p>
+							<h4>Queenstown tour package: $123</h4>
+						</div>
+					</div>
+					<div className='box-shadow review-image-two'>
+						<div className='review-info-top'>
+							<p className='smoke-background'>7 days</p>
+							<p className='smoke-background'>4.7</p>
+						</div>
+						<div className='review-info-bottom smoke-background'>
+							<p>1st Jan - 7th Jan</p>
+							<h4>River tours package: $123</h4>
+						</div>
+					</div>
+					<div className='box-shadow review-image-three'>
+						<div className='review-info-top'>
+							<p className='smoke-background'>3 days</p>
+							<p className='smoke-background'>4.9</p>
+						</div>
+						<div className='review-info-bottom smoke-background'>
+							<p>1st Jan - 3rd Jan</p>
+							<h4>National parks tour package: $123</h4>
+						</div>
+					</div>
 				</div>
-				<button className='view-more-button'>view more</button>
 			</section>
+			<section className='testimonial-container'></section>
 		</>
 	)
 }
