@@ -29,3 +29,9 @@ Photo by <a href="https://unsplash.com/@joshwithers?utm_content=creditCopyText&u
 Photo by <a href="https://unsplash.com/@pixelatelier?utm_content=creditCopyText&utm_medium=referral&utm_source=unsplash">Christian Holzinger</a> on <a href="https://unsplash.com/photos/snow-covered-mountain-under-orange-and-blue-sky-V_ikwGP-47c?utm_content=creditCopyText&utm_medium=referral&utm_source=unsplash">Unsplash</a>
 
 Photo by <a href="https://unsplash.com/@mischievous_penguins?utm_content=creditCopyText&utm_medium=referral&utm_source=unsplash">Casey Horner</a> on <a href="https://unsplash.com/photos/mountains-covered-with-snow-near-road-75_s8iWHKLs?utm_content=creditCopyText&utm_medium=referral&utm_source=unsplash">Unsplash</a>
+
+Photo by <a href="https://unsplash.com/@ofbekdemir?utm_content=creditCopyText&utm_medium=referral&utm_source=unsplash">Ömer Faruk Bekdemir</a> on <a href="https://unsplash.com/photos/buildings-near-body-of-water-and-mountains-under-clear-blue-sky-and-white-clouds-at-daytime-5BuxuWIJF1Q?utm_content=creditCopyText&utm_medium=referral&utm_source=unsplash">Unsplash</a>
+
+Photo by <a href="https://unsplash.com/@werner7?utm_content=creditCopyText&utm_medium=referral&utm_source=unsplash">Werner Sevenster</a> on <a href="https://unsplash.com/photos/river-between-green-trees-during-daytime-1Bkgk9mfuNo?utm_content=creditCopyText&utm_medium=referral&utm_source=unsplash">Unsplash</a>
+
+Photo by <a href="https://unsplash.com/@lastly?utm_content=creditCopyText&utm_medium=referral&utm_source=unsplash">Tyler Lastovich</a> on <a href="https://unsplash.com/photos/brown-wooden-dock-towards-mountain-near-creek-and-glacier-mountains-etuPl3bjiOk?utm_content=creditCopyText&utm_medium=referral&utm_source=unsplash">Unsplash</a>

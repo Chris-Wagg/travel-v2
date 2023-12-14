@@ -249,7 +249,10 @@ export default function Home() {
 					</div>
 				</div>
 			</section>
-			<section className='testimonial-container'></section>
+			<section className='testimonial-container'>
+				<div className='right'></div>
+				<div className='left'></div>
+			</section>
 		</>
 	)
 }
