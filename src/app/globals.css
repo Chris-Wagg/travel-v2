@@ -302,6 +302,7 @@ body {
 	color: white;
 	/* width: 70%; */
 	justify-self: flex-end;
+	padding: 1rem;
 }
 
 .image-overlay-text {
