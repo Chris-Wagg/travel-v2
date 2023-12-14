@@ -84,7 +84,6 @@ export default function Home() {
 				</div>
 			</section>
 			<section className='how-to-container'>
-				{/* TO DO : fix the image scaling to minmax */}
 				<div className='how-to-image image-container'>
 					<div className='central-nav smoke-background'>
 						<div className='central-nav-buttons'>

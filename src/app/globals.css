@@ -300,7 +300,7 @@ body {
 	text-align: center;
 	align-items: center;
 	color: white;
-	width: 70%;
+	/* width: 70%; */
 	justify-self: flex-end;
 }
 
