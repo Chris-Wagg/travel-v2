@@ -25,14 +25,13 @@ export default function Home() {
 						With all the best Lord of the Rings filming locations
 					</p>
 					<div className='central-nav smoke-background'>
-						{/* fix this is wrap when the width scales down */}
 						<div className='central-nav-buttons'>
 							<button>Dates</button>
 							<button>Guests</button>
 							<button>Locations</button>
 							<button>Guides</button>
+							<button className='white-button'>Search</button>
 						</div>
-						<button className='white-button'>Search</button>
 					</div>
 				</section>
 				<section className='stat-cards-container stat-card-row content'>
@@ -87,6 +86,15 @@ export default function Home() {
 			<section className='how-to-container'>
 				{/* fix the image scaling to minmax */}
 				<div className='how-to-image image-container'>
+					<div className='central-nav smoke-background'>
+						<div className='central-nav-buttons'>
+							<button>Dates</button>
+							<button>Guests</button>
+							<button>Locations</button>
+							<button>Guides</button>
+							<button className='white-button'>Search</button>
+						</div>
+					</div>
 					<p className='image-overlay-text'>
 						Lorem ipsum dolor sit amet, consectetur adipiscing elit.
 						Nunc ultrices dolor nisi. Etiam efficitur ultrices
