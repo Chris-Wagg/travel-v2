@@ -35,3 +35,5 @@ Photo by <a href="https://unsplash.com/@ofbekdemir?utm_content=creditCopyText&ut
 Photo by <a href="https://unsplash.com/@werner7?utm_content=creditCopyText&utm_medium=referral&utm_source=unsplash">Werner Sevenster</a> on <a href="https://unsplash.com/photos/river-between-green-trees-during-daytime-1Bkgk9mfuNo?utm_content=creditCopyText&utm_medium=referral&utm_source=unsplash">Unsplash</a>
 
 Photo by <a href="https://unsplash.com/@lastly?utm_content=creditCopyText&utm_medium=referral&utm_source=unsplash">Tyler Lastovich</a> on <a href="https://unsplash.com/photos/brown-wooden-dock-towards-mountain-near-creek-and-glacier-mountains-etuPl3bjiOk?utm_content=creditCopyText&utm_medium=referral&utm_source=unsplash">Unsplash</a>
+
+<a href="https://iconscout.com/icons/avatar" class="text-underline font-size-sm" target="_blank">Avatar</a> by <a href="https://iconscout.com/contributors/dmitriy-bondarchuk" class="text-underline font-size-sm">Dmitriy Bondarchuk</a> on <a href="https://iconscout.com" class="text-underline font-size-sm">IconScout</a>

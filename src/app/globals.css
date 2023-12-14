@@ -427,3 +427,31 @@ body {
 .star-svg path {
 	fill: #828282;
 }
+
+/* testimonial section */
+
+.testimonial-container {
+	display: grid;
+	grid-template-columns: 1fr 1fr;
+	justify-items: center;
+	margin: 1rem;
+	border-radius: 25px;
+	padding: 1rem;
+}
+
+.left {
+	display: flex;
+	flex-direction: column;
+	justify-content: space-between;
+}
+
+.subject {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+.arrows {
+	display: flex;
+	justify-content: space-evenly;
+}
