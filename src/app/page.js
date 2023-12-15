@@ -373,6 +373,7 @@ export default function Home() {
 						</div>
 					</div>
 				</div>
+				<button className='see-more-button'>See more</button>
 			</section>
 		</>
 	)

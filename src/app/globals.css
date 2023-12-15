@@ -513,3 +513,12 @@ body {
 	border-radius: 25px;
 	height: 250px;
 }
+
+.see-more-button {
+	border: 0;
+	padding: 0.5rem 2rem 0.5rem 2rem;
+	background-color: black;
+	color: white;
+	border-radius: 25px;
+	margin-top: 1rem;
+}
