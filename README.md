@@ -36,4 +36,6 @@ Photo by <a href="https://unsplash.com/@werner7?utm_content=creditCopyText&utm_m
 
 Photo by <a href="https://unsplash.com/@lastly?utm_content=creditCopyText&utm_medium=referral&utm_source=unsplash">Tyler Lastovich</a> on <a href="https://unsplash.com/photos/brown-wooden-dock-towards-mountain-near-creek-and-glacier-mountains-etuPl3bjiOk?utm_content=creditCopyText&utm_medium=referral&utm_source=unsplash">Unsplash</a>
 
-<a href="https://iconscout.com/icons/avatar" class="text-underline font-size-sm" target="_blank">Avatar</a> by <a href="https://iconscout.com/contributors/dmitriy-bondarchuk" class="text-underline font-size-sm">Dmitriy Bondarchuk</a> on <a href="https://iconscout.com" class="text-underline font-size-sm">IconScout</a>
+Photo by <a href="https://unsplash.com/@aaronkongsebastian?utm_content=creditCopyText&utm_medium=referral&utm_source=unsplash">Aaron Sebastian</a> on <a href="https://unsplash.com/photos/landscape-photography-of-river-between-hills-bfgEYpS0Znk?utm_content=creditCopyText&utm_medium=referral&utm_source=unsplash">Unsplash</a>
+
+Photo by <a href="https://unsplash.com/@boonpanthalany?utm_content=creditCopyText&utm_medium=referral&utm_source=unsplash">Boon Panthalany</a> on <a href="https://unsplash.com/photos/green-grass-mountain-at-day-time-uOszz6FdXGQ?utm_content=creditCopyText&utm_medium=referral&utm_source=unsplash">Unsplash</a>

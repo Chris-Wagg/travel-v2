@@ -336,6 +336,44 @@ export default function Home() {
 					Tristique senectus et netus et."
 				</div>
 			</section>
+			<section className='blog-container'>
+				<div className='blog-title'>
+					<h2>Our blog</h2>
+					<p>our best travel momories</p>
+				</div>
+				<div className='blog-cards-container '>
+					<div className='blog-card box-shadow'>
+						<div className='blog-image blog-image-1'></div>
+						<div className='blog-card-text'>
+							<p>Jan 1, 2023</p>
+							<h3>
+								You wouldn't belive what our most popular tours
+								where!
+							</h3>
+							<p>
+								Lorem ipsum dolor sit amet, consectetur
+								adipiscing elit. Pellentesque tellus augue,
+								semper id suscipit nec, mattis sit amet urna.
+							</p>
+						</div>
+					</div>
+					<div className='blog-card box-shadow'>
+						<div className='blog-image-2'></div>
+						<div className='blog-card-text'>
+							<p>Jan 1, 2023</p>
+							<h3>
+								You wouldn't belive what our most popular tours
+								where!
+							</h3>
+							<p>
+								Lorem ipsum dolor sit amet, consectetur
+								adipiscing elit. Pellentesque tellus augue,
+								semper id suscipit nec, mattis sit amet urna.
+							</p>
+						</div>
+					</div>
+				</div>
+			</section>
 		</>
 	)
 }
