@@ -250,9 +250,9 @@ export default function Home() {
 				</div>
 			</section>
 			<section className='testimonial-container box-shadow'>
-				<div className='left'>
-					<div className='subject'>
-						<div className='icon'>
+				<div className='testimonial-left'>
+					<div className='testimonial-subject'>
+						<div className='testimonial-icon'>
 							<svg
 								id='SvgjsSvg1001'
 								width='48'
@@ -328,7 +328,7 @@ export default function Home() {
 						</div>
 					</div>
 				</div>
-				<div className='right'>
+				<div className='testimonial-right'>
 					"Lorem ipsum dolor sit amet, consectetur adipiscing elit,
 					sed do eiusmod tempor incididunt ut labore et dolore magna
 					aliqua. Scelerisque fermentum dui faucibus in ornare quam

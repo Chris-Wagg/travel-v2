@@ -439,13 +439,13 @@ body {
 	padding: 1rem;
 }
 
-.left {
+.testimonial-left {
 	display: flex;
 	flex-direction: column;
 	justify-content: space-between;
 }
 
-.subject {
+.testimonial-subject {
 	display: flex;
 	justify-content: center;
 	align-items: center;
@@ -454,4 +454,9 @@ body {
 .arrows {
 	display: flex;
 	justify-content: space-evenly;
+}
+
+.testimonial-right {
+	display: flex;
+	align-items: center;
 }
