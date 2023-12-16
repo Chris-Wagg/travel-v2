@@ -21,9 +21,7 @@ export default function Home() {
 						Middle Earth Travel : The definitive New Zealand travel
 						experience
 					</h1>
-					<p className='sub-title'>
-						With all the best Lord of the Rings filming locations
-					</p>
+
 					<div className='central-nav smoke-background'>
 						<div className='central-nav-buttons'>
 							<button>Dates</button>
