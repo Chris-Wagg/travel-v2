@@ -2,7 +2,7 @@ export default function Home() {
 	return (
 		<>
 			<main className='content-grid'>
-				<div className='hero-background-container background-position full-width full-height'></div>
+				<div className='hero-background background-position full-width full-height'></div>
 				<header className='header-container header-row breakout'>
 					<div className='hero-title'>M.E. Travel</div>
 					<nav className='top-nav-container smoke-background'>
