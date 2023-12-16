@@ -531,13 +531,12 @@ body {
 	justify-content: space-evenly;
 	background-color: black;
 	color: white;
+	flex-wrap: wrap;
 }
 
 .footer-left {
-	display: grid;
-	grid-template-columns: 1fr 1fr 1fr;
+	display: flex;
 	gap: 1rem;
-	justify-content: center;
 }
 
 .footer-button-container {
@@ -563,10 +562,6 @@ body {
 	display: flex;
 	flex-direction: column;
 	justify-content: space-between;
-}
-
-.footer-right > p {
-	/* color: #5e5d5d; */
 }
 
 .email-input {
