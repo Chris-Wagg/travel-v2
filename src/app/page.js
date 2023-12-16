@@ -35,7 +35,7 @@ export default function Home() {
 				<section className='stat-cards-container stat-card-row content'>
 					{/* TO DO : fix these so they wrap */}
 					<div className='single-card box-shadow'>
-						<p>100,000+</p>
+						<p>10k +</p>
 						<p>Total customers</p>
 					</div>
 					<div className='single-card box-shadow'>
@@ -43,7 +43,7 @@ export default function Home() {
 						<p>Years of experience</p>
 					</div>
 					<div className='single-card box-shadow'>
-						<p>5,000+</p>
+						<p>5k +</p>
 						<p>Tours run</p>
 					</div>
 					<div className='single-card box-shadow'>
@@ -64,19 +64,19 @@ export default function Home() {
 			</div>
 			<section className='location-cards-container'>
 				{/* TO DO : fix the wrapping so it wraps 2 at a time so you dont end up with a row of 1 and 3 */}
-				<div className='card card-background-1 background-position  box-shadow'>
+				<div className='location-card card-background-1 background-position  box-shadow'>
 					<p>The Shire</p>
 					<p>Hobbit tours package</p>
 				</div>
-				<div className='card box-shadow card-background-2 background-position '>
+				<div className='location-card box-shadow card-background-2 background-position '>
 					<p>Mount Doom</p>
 					<p>North Island tours</p>
 				</div>
-				<div className='card box-shadow card-background-3 background-position '>
+				<div className='location-card box-shadow card-background-3 background-position '>
 					<p>River Anduin</p>
 					<p>River tours package</p>
 				</div>
-				<div className='card box-shadow card-background-4 background-position '>
+				<div className='location-card box-shadow card-background-4 background-position '>
 					<p>Mordor</p>
 					<p>Hobbit walking tours</p>
 				</div>
