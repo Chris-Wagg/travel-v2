@@ -2,10 +2,10 @@ export default function Home() {
 	return (
 		<>
 			<main className='content-grid'>
-				<div className='background-container full-width full-height'></div>
+				<div className='hero-background-container background-position full-width full-height'></div>
 				<header className='header-container header-row breakout'>
-					<div className='title'>M.E. Travel</div>
-					<nav className='nav-container smoke-background'>
+					<div className='hero-title'>M.E. Travel</div>
+					<nav className='top-nav-container smoke-background'>
 						<button>About</button>
 						<button>Services</button>
 						<button>Tours</button>
@@ -64,25 +64,25 @@ export default function Home() {
 			</div>
 			<section className='location-cards-container'>
 				{/* TO DO : fix the wrapping so it wraps 2 at a time so you dont end up with a row of 1 and 3 */}
-				<div className='card card-background-1 box-shadow'>
+				<div className='card card-background-1 background-position  box-shadow'>
 					<p>The Shire</p>
 					<p>Hobbit tours package</p>
 				</div>
-				<div className='card box-shadow card-background-2'>
+				<div className='card box-shadow card-background-2 background-position '>
 					<p>Mount Doom</p>
 					<p>North Island tours</p>
 				</div>
-				<div className='card box-shadow card-background-3'>
+				<div className='card box-shadow card-background-3 background-position '>
 					<p>River Anduin</p>
 					<p>River tours package</p>
 				</div>
-				<div className='card box-shadow card-background-4'>
+				<div className='card box-shadow card-background-4 background-position '>
 					<p>Mordor</p>
 					<p>Hobbit walking tours</p>
 				</div>
 			</section>
 			<section className='how-to-container'>
-				<div className='how-to-image image-container'>
+				<div className='how-to-image background-position  image-container'>
 					<div className='central-nav smoke-background'>
 						<div className='central-nav-buttons'>
 							<button>Dates</button>
@@ -215,7 +215,7 @@ export default function Home() {
 					</p>
 				</div>
 				<div className='review-images-container'>
-					<div className='box-shadow review-image-one'>
+					<div className='box-shadow review-image-one background-position '>
 						<div className='review-info-top'>
 							<p className='smoke-background'>5 days</p>
 							<p className='smoke-background'>4.8</p>
@@ -225,7 +225,7 @@ export default function Home() {
 							<h4>Queenstown tour package: $123</h4>
 						</div>
 					</div>
-					<div className='box-shadow review-image-two'>
+					<div className='box-shadow review-image-two background-position '>
 						<div className='review-info-top'>
 							<p className='smoke-background'>7 days</p>
 							<p className='smoke-background'>4.7</p>
@@ -235,7 +235,7 @@ export default function Home() {
 							<h4>River tours package: $123</h4>
 						</div>
 					</div>
-					<div className='box-shadow review-image-three'>
+					<div className='box-shadow review-image-three background-position '>
 						<div className='review-info-top'>
 							<p className='smoke-background'>3 days</p>
 							<p className='smoke-background'>4.9</p>
@@ -341,7 +341,7 @@ export default function Home() {
 				</div>
 				<div className='blog-cards-container '>
 					<div className='blog-card box-shadow'>
-						<div className='blog-image blog-image-1'></div>
+						<div className='blog-image blog-image-1 background-position '></div>
 						<div className='blog-card-text'>
 							<p>Jan 1, 2023</p>
 							<h3>
@@ -356,7 +356,7 @@ export default function Home() {
 						</div>
 					</div>
 					<div className='blog-card box-shadow'>
-						<div className='blog-image-2'></div>
+						<div className='blog-image-2 background-position '></div>
 						<div className='blog-card-text'>
 							<p>Jan 1, 2023</p>
 							<h3>
