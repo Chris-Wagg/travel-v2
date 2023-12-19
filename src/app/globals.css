@@ -98,7 +98,7 @@ button:hover {
 .top-nav-container {
 	display: flex;
 	justify-content: space-evenly;
-	padding: 1% 2% 1% 2%;
+	/* padding: 1% 2% 1% 2%; */
 	flex-wrap: wrap;
 }
 
@@ -153,8 +153,6 @@ button:hover {
 
 /* middle nav */
 .central-nav {
-	/* border: 1px solid red; */
-	/* width: 50%; */
 	display: flex;
 	align-items: center;
 	justify-content: space-between;
@@ -163,7 +161,6 @@ button:hover {
 
 .central-nav-buttons {
 	display: flex;
-	flex: 1;
 	justify-content: space-around;
 	flex-wrap: wrap;
 }
@@ -557,6 +554,7 @@ button:hover {
 	display: flex;
 	flex-direction: column;
 	justify-content: space-between;
+	margin-left: 1rem;
 }
 
 .email-input {
@@ -594,6 +592,7 @@ input {
 	display: flex;
 	justify-content: flex-end;
 	gap: 1rem;
+	margin-right: 1rem;
 }
 
 .socials-buttons > button {
@@ -604,4 +603,51 @@ input {
 	border-radius: 99px;
 	background-color: #666363;
 	border: 0;
+}
+
+@media (max-width: 425px) {
+	.header-container {
+		display: flex;
+		flex-direction: column;
+		gap: 1rem;
+		margin: 0 1rem 0 1rem;
+	}
+
+	.stat-cards-container {
+		display: flex;
+		flex-wrap: wrap;
+		justify-content: center;
+		margin-top: 3rem;
+	}
+
+	.locations-text-container {
+		margin-top: 17rem;
+	}
+
+	.how-to-container {
+		display: flex;
+		flex-direction: column-reverse;
+	}
+
+	.single-card {
+		display: flex;
+		justify-content: center;
+		align-items: center;
+		flex-direction: column;
+	}
+
+	.central-nav {
+		margin: 0 1rem 0 1rem;
+	}
+
+	.hero-text > h1 {
+		font-size: 42px;
+	}
+}
+
+@media (max-width: 320px) {
+	.locations-text-container {
+		margin-top: 42rem;
+		margin-right: 1rem;
+	}
 }
