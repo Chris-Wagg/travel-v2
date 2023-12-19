@@ -554,7 +554,7 @@ button:hover {
 	display: flex;
 	flex-direction: column;
 	justify-content: space-between;
-	margin-left: 1rem;
+	/* margin-left: 1rem; */
 }
 
 .email-input {
