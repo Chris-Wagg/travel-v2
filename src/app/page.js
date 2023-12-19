@@ -327,11 +327,11 @@ export default function Home() {
 					</div>
 				</div>
 				<div className='testimonial-right'>
-					"Lorem ipsum dolor sit amet, consectetur adipiscing elit,
-					sed do eiusmod tempor incididunt ut labore et dolore magna
+					Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed
+					do eiusmod tempor incididunt ut labore et dolore magna
 					aliqua. Scelerisque fermentum dui faucibus in ornare quam
 					viverra. Cursus eget nunc scelerisque viverra mauris.
-					Tristique senectus et netus et."
+					Tristique senectus et netus et.
 				</div>
 			</section>
 			<section className='blog-container'>
@@ -345,8 +345,8 @@ export default function Home() {
 						<div className='blog-card-text'>
 							<p>Jan 1, 2023</p>
 							<h3>
-								You wouldn't belive what our most popular tours
-								where!
+								{`You wouldn't belive what our most popular tours
+								where!`}
 							</h3>
 							<p>
 								Lorem ipsum dolor sit amet, consectetur
@@ -360,8 +360,8 @@ export default function Home() {
 						<div className='blog-card-text'>
 							<p>Jan 1, 2023</p>
 							<h3>
-								You wouldn't belive what our most popular tours
-								where!
+								{`You wouldn't belive what our most popular tours
+								where!`}
 							</h3>
 							<p>
 								Lorem ipsum dolor sit amet, consectetur
@@ -394,7 +394,7 @@ export default function Home() {
 						<button>Report an issue</button>
 					</div>
 					<div className='footer-button-container'>
-						<h4 className='faq-section'>FAQ's</h4>
+						<h4 className='faq-section'>{`FAQ's`}</h4>
 						<button>Accounts</button>
 						<button>Booking</button>
 						<button>Payments</button>
