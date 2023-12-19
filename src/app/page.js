@@ -327,11 +327,11 @@ export default function Home() {
 					</div>
 				</div>
 				<div className='testimonial-right'>
-					Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed
+					{`"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed
 					do eiusmod tempor incididunt ut labore et dolore magna
 					aliqua. Scelerisque fermentum dui faucibus in ornare quam
 					viverra. Cursus eget nunc scelerisque viverra mauris.
-					Tristique senectus et netus et.
+					Tristique senectus et netus et."`}
 				</div>
 			</section>
 			<section className='blog-container'>
