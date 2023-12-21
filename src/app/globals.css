@@ -249,19 +249,13 @@ button:hover {
 	height: 400px;
 }
 
-.location-card p {
+.location-card > * {
 	margin: 5px 0px 5px 20px;
 	color: white;
 }
 
-.location-card p:nth-child(2) {
+.location-card > h4 {
 	font-weight: 600;
-}
-
-@media (max-width: 1024px) {
-	.location-card {
-		grid-column: span 2;
-	}
 }
 
 .card-background-1 {
@@ -414,6 +408,11 @@ button:hover {
 	max-width: fit-content;
 	padding: 0.5rem;
 	margin-bottom: 1rem;
+}
+
+.review-info-bottom > h3 {
+	font-size: 16px;
+	font-weight: 500;
 }
 
 .review-info-bottom > * {
@@ -602,6 +601,12 @@ input {
 	border-radius: 99px;
 	background-color: #666363;
 	border: 0;
+}
+
+@media (max-width: 1024px) {
+	.location-card {
+		grid-column: span 2;
+	}
 }
 
 @media (max-width: 425px) {

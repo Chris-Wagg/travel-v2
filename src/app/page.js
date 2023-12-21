@@ -54,8 +54,8 @@ export default function Home() {
 			</main>
 			<div className='locations-text-container'>
 				<div>
+					<h2>Our best Locations</h2>
 					<p>Middle Earth Tourism</p>
-					<h2>Best Locations</h2>
 				</div>
 				<p>
 					Lorem ipsum dolor sit amet, consectetur adipiscing elit.
@@ -65,20 +65,20 @@ export default function Home() {
 			<section className='location-cards-container'>
 				{/* TO DO : fix the wrapping so it wraps 2 at a time so you dont end up with a row of 1 and 3 */}
 				<div className='location-card card-background-1 background-position  box-shadow'>
-					<p>The Shire</p>
-					<p>Hobbit tours package</p>
+					<h3>The Shire</h3>
+					<h4>Hobbit tours package</h4>
 				</div>
 				<div className='location-card box-shadow card-background-2 background-position '>
-					<p>Mount Doom</p>
-					<p>North Island tours</p>
+					<h3>Mount Doom</h3>
+					<h4>North Island tours</h4>
 				</div>
 				<div className='location-card box-shadow card-background-3 background-position '>
-					<p>River Anduin</p>
-					<p>River tours package</p>
+					<h3>River Anduin</h3>
+					<h4>River tours package</h4>
 				</div>
 				<div className='location-card box-shadow card-background-4 background-position '>
-					<p>Mordor</p>
-					<p>Hobbit walking tours</p>
+					<h3>Mordor</h3>
+					<h3>Hobbit walking tours</h3>
 				</div>
 			</section>
 			<section className='how-to-container'>
@@ -222,7 +222,7 @@ export default function Home() {
 						</div>
 						<div className='review-info-bottom smoke-background'>
 							<p>1st Jan - 5th Jan</p>
-							<h4>Queenstown tour package: $123</h4>
+							<h3>Queenstown tour package: $123</h3>
 						</div>
 					</div>
 					<div className='box-shadow review-image-two background-position '>
@@ -232,7 +232,7 @@ export default function Home() {
 						</div>
 						<div className='review-info-bottom smoke-background'>
 							<p>1st Jan - 7th Jan</p>
-							<h4>River tours package: $123</h4>
+							<h3>River tours package: $123</h3>
 						</div>
 					</div>
 					<div className='box-shadow review-image-three background-position '>
@@ -242,7 +242,7 @@ export default function Home() {
 						</div>
 						<div className='review-info-bottom smoke-background'>
 							<p>1st Jan - 3rd Jan</p>
-							<h4>National parks tour package: $123</h4>
+							<h3>National parks tour package: $123</h3>
 						</div>
 					</div>
 				</div>
@@ -337,7 +337,7 @@ export default function Home() {
 			<section className='blog-container'>
 				<div className='blog-title'>
 					<h2>Our blog</h2>
-					<p>our best travel momories</p>
+					<p>Our best travel momories</p>
 				</div>
 				<div className='blog-cards-container '>
 					<div className='blog-card box-shadow'>
@@ -376,7 +376,7 @@ export default function Home() {
 			<footer className='footer-container'>
 				<section className='footer-left'>
 					<div className='footer-button-container'>
-						<h4>About</h4>
+						<h2>About</h2>
 						<button>About us</button>
 						<button>Blog</button>
 						<button>Careers</button>
@@ -385,7 +385,7 @@ export default function Home() {
 						<button>Gallery</button>
 					</div>
 					<div className='footer-button-container'>
-						<h4 className='support-section'>Support</h4>
+						<h2 className='support-section'>Support</h2>
 						<button>Contact us</button>
 						<button>Online chat</button>
 						<button>Submit a ticket</button>
@@ -394,7 +394,7 @@ export default function Home() {
 						<button>Report an issue</button>
 					</div>
 					<div className='footer-button-container'>
-						<h4 className='faq-section'>{`FAQ's`}</h4>
+						<h2 className='faq-section'>{`FAQ's`}</h2>
 						<button>Accounts</button>
 						<button>Booking</button>
 						<button>Payments</button>
@@ -404,7 +404,7 @@ export default function Home() {
 					</div>
 				</section>
 				<section className='footer-right'>
-					<h4>Newsletter</h4>
+					<h2>Newsletter</h2>
 					<p>
 						Lorem ipsum dolor sit amet, consectetur adipiscing elit.
 						Vivamus finibus aliquam erat vel rutrum.
