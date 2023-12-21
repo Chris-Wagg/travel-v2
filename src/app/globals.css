@@ -108,10 +108,12 @@ button:hover {
 	color: whitesmoke;
 	padding: 5px 10px 5px 10px;
 	font-size: 18px;
+	border-radius: 25px;
 }
 
 .top-nav-container > button:hover {
-	color: black;
+	border: 1px solid white;
+	border-radius: 25px;
 }
 
 /* white buttons */
@@ -174,6 +176,11 @@ button:hover {
 	padding: 0rem 1.2rem 0rem 1rem;
 	font-size: 18px;
 	margin: 8px;
+}
+
+.central-nav-buttons > button:hover {
+	border: 1px solid white;
+	border-radius: 25px;
 }
 
 .central-nav-buttons > button:nth-last-child(1) {
