@@ -421,7 +421,7 @@ export default function Home() {
 					</div>
 
 					<div className='socials-buttons'>
-						<button>
+						<button aria-label='Facebook'>
 							<svg
 								width='24'
 								height='24'
@@ -434,7 +434,7 @@ export default function Home() {
 								/>
 							</svg>
 						</button>
-						<button>
+						<button aria-label='Twitter'>
 							<svg
 								width='24'
 								height='24'
@@ -449,7 +449,7 @@ export default function Home() {
 								/>
 							</svg>
 						</button>
-						<button>
+						<button aria-label='Instagram'>
 							<svg
 								width='24'
 								height='24'

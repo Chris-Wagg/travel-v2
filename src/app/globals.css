@@ -227,7 +227,7 @@ button:hover {
 	display: flex;
 	justify-content: center;
 	width: 50%;
-	color: #aaaec3;
+	color: #3b3f54;
 }
 
 /* locations cards */
@@ -490,7 +490,7 @@ button:hover {
 }
 
 .blog-card-text > p {
-	color: #aaaec3;
+	color: #3b3f54;
 }
 
 .blog-card-text > * {
@@ -541,7 +541,7 @@ button:hover {
 .footer-button-container > button {
 	border: 0;
 	background-color: black;
-	color: #5e5d5d;
+	color: whitesmoke;
 	transition: all 0.1s ease-in-out;
 }
 
