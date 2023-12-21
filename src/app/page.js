@@ -4,7 +4,7 @@ export default function Home() {
 			<main className='content-grid'>
 				<div className='hero-background background-position full-width full-height'></div>
 				<header className='header-container header-row breakout'>
-					<div className='hero-title'>M.E. Travel</div>
+					<h1 className='hero-title'>M.E. Travel</h1>
 					<nav className='top-nav-container smoke-background'>
 						<button>About</button>
 						<button>Services</button>
