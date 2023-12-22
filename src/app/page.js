@@ -1,3 +1,7 @@
+'use client'
+
+import { motion } from 'framer-motion'
+
 export default function Home() {
 	return (
 		<>
@@ -63,23 +67,38 @@ export default function Home() {
 				</p>
 			</div>
 			<section className='location-cards-container'>
-				{/* TO DO : fix the wrapping so it wraps 2 at a time so you dont end up with a row of 1 and 3 */}
-				<div className='location-card card-background-1 background-position  box-shadow'>
+				<motion.div
+					initial={{ opacity: 0, translateY: +100 }}
+					whileInView={{ opacity: 1, translateY: 0 }}
+					transition={{ duration: 0.5 }}
+					className='location-card card-background-1 background-position  box-shadow'>
 					<h3>The Shire</h3>
 					<h4>Hobbit tours package</h4>
-				</div>
-				<div className='location-card box-shadow card-background-2 background-position '>
+				</motion.div>
+				<motion.div
+					initial={{ opacity: 0, translateY: +100 }}
+					whileInView={{ opacity: 1, translateY: 0 }}
+					transition={{ duration: 0.5 }}
+					className='location-card box-shadow card-background-2 background-position '>
 					<h3>Mount Doom</h3>
 					<h4>North Island tours</h4>
-				</div>
-				<div className='location-card box-shadow card-background-3 background-position '>
+				</motion.div>
+				<motion.div
+					initial={{ opacity: 0, translateY: +100 }}
+					whileInView={{ opacity: 1, translateY: 0 }}
+					transition={{ duration: 0.5 }}
+					className='location-card box-shadow card-background-3 background-position '>
 					<h3>River Anduin</h3>
 					<h4>River tours package</h4>
-				</div>
-				<div className='location-card box-shadow card-background-4 background-position '>
+				</motion.div>
+				<motion.div
+					initial={{ opacity: 0, translateY: +100 }}
+					whileInView={{ opacity: 1, translateY: 0 }}
+					transition={{ duration: 0.5 }}
+					className='location-card box-shadow card-background-4 background-position '>
 					<h3>Mordor</h3>
 					<h3>Hobbit walking tours</h3>
-				</div>
+				</motion.div>
 			</section>
 			<section className='how-to-container'>
 				<div className='how-to-image background-position  image-container'>
@@ -104,7 +123,11 @@ export default function Home() {
 						<p>One click and done!</p>
 					</div>
 					<div className='how-to-card-container'>
-						<div className='how-to-card box-shadow'>
+						<motion.div
+							initial={{ opacity: 0, translateX: -50 }}
+							whileInView={{ opacity: 1, translateX: 0 }}
+							transition={{ duration: 0.5 }}
+							className='how-to-card box-shadow'>
 							<div className='icon'>
 								<svg
 									width='24'
@@ -127,8 +150,12 @@ export default function Home() {
 									adipiscing elit.
 								</p>
 							</div>
-						</div>
-						<div className='how-to-card box-shadow'>
+						</motion.div>
+						<motion.div
+							initial={{ opacity: 0, translateX: -50 }}
+							whileInView={{ opacity: 1, translateX: 0 }}
+							transition={{ duration: 0.5 }}
+							className='how-to-card box-shadow'>
 							<div className='icon'>
 								<svg
 									width='24'
@@ -151,8 +178,12 @@ export default function Home() {
 									adipiscing elit.
 								</p>
 							</div>
-						</div>
-						<div className='how-to-card box-shadow'>
+						</motion.div>
+						<motion.div
+							initial={{ opacity: 0, translateX: -50 }}
+							whileInView={{ opacity: 1, translateX: 0 }}
+							transition={{ duration: 0.5 }}
+							className='how-to-card box-shadow'>
 							<div className='icon'>
 								<svg
 									width='24'
@@ -175,8 +206,12 @@ export default function Home() {
 									adipiscing elit.
 								</p>
 							</div>
-						</div>
-						<div className='how-to-card box-shadow'>
+						</motion.div>
+						<motion.div
+							initial={{ opacity: 0, translateX: -50 }}
+							whileInView={{ opacity: 1, translateX: 0 }}
+							transition={{ duration: 0.5 }}
+							className='how-to-card box-shadow'>
 							<div className='icon'>
 								<svg
 									width='24'
@@ -199,7 +234,7 @@ export default function Home() {
 									adipiscing elit.
 								</p>
 							</div>
-						</div>
+						</motion.div>
 					</div>
 				</section>
 			</section>
@@ -215,7 +250,11 @@ export default function Home() {
 					</p>
 				</div>
 				<div className='review-images-container'>
-					<div className='box-shadow review-image-one background-position '>
+					<motion.div
+						initial={{ opacity: 0, translateX: -50 }}
+						whileInView={{ opacity: 1, translateX: 0 }}
+						transition={{ duration: 0.5 }}
+						className='box-shadow review-image-one background-position '>
 						<div className='review-info-top'>
 							<p className='smoke-background'>5 days</p>
 							<p className='smoke-background'>4.8</p>
@@ -224,8 +263,12 @@ export default function Home() {
 							<p>1st Jan - 5th Jan</p>
 							<h3>Queenstown tour package: $123</h3>
 						</div>
-					</div>
-					<div className='box-shadow review-image-two background-position '>
+					</motion.div>
+					<motion.div
+						initial={{ opacity: 0, translateX: -50 }}
+						whileInView={{ opacity: 1, translateX: 0 }}
+						transition={{ duration: 0.5 }}
+						className='box-shadow review-image-two background-position '>
 						<div className='review-info-top'>
 							<p className='smoke-background'>7 days</p>
 							<p className='smoke-background'>4.7</p>
@@ -234,8 +277,12 @@ export default function Home() {
 							<p>1st Jan - 7th Jan</p>
 							<h3>River tours package: $123</h3>
 						</div>
-					</div>
-					<div className='box-shadow review-image-three background-position '>
+					</motion.div>
+					<motion.div
+						initial={{ opacity: 0, translateX: -50 }}
+						whileInView={{ opacity: 1, translateX: 0 }}
+						transition={{ duration: 0.5 }}
+						className='box-shadow review-image-three background-position '>
 						<div className='review-info-top'>
 							<p className='smoke-background'>3 days</p>
 							<p className='smoke-background'>4.9</p>
@@ -244,7 +291,7 @@ export default function Home() {
 							<p>1st Jan - 3rd Jan</p>
 							<h3>National parks tour package: $123</h3>
 						</div>
-					</div>
+					</motion.div>
 				</div>
 			</section>
 			<section className='testimonial-container box-shadow'>
