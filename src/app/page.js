@@ -73,7 +73,7 @@ export default function Home() {
 					transition={{ duration: 0.5 }}
 					className='location-card card-background-1 background-position  box-shadow'>
 					<h3>The Shire</h3>
-					<h4>Hobbit tours package</h4>
+					<p>Hobbit tours package</p>
 				</motion.div>
 				<motion.div
 					initial={{ opacity: 0, translateY: +100 }}
@@ -81,7 +81,7 @@ export default function Home() {
 					transition={{ duration: 0.5 }}
 					className='location-card box-shadow card-background-2 background-position '>
 					<h3>Mount Doom</h3>
-					<h4>North Island tours</h4>
+					<p>North Island tours</p>
 				</motion.div>
 				<motion.div
 					initial={{ opacity: 0, translateY: +100 }}
@@ -89,7 +89,7 @@ export default function Home() {
 					transition={{ duration: 0.5 }}
 					className='location-card box-shadow card-background-3 background-position '>
 					<h3>River Anduin</h3>
-					<h4>River tours package</h4>
+					<p>River tours package</p>
 				</motion.div>
 				<motion.div
 					initial={{ opacity: 0, translateY: +100 }}
@@ -97,7 +97,7 @@ export default function Home() {
 					transition={{ duration: 0.5 }}
 					className='location-card box-shadow card-background-4 background-position '>
 					<h3>Mordor</h3>
-					<h3>Hobbit walking tours</h3>
+					<p>Hobbit walking tours</p>
 				</motion.div>
 			</section>
 			<section className='how-to-container'>
