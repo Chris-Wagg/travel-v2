@@ -514,12 +514,17 @@ button {
 }
 
 .see-more-button {
-	border: 0;
+	border: 2px solid transparent;
 	padding: 1rem 3rem 1rem 3rem;
 	background-color: black;
 	color: white;
 	border-radius: 25px;
 	margin-top: 1rem;
+}
+
+.see-more-button:focus,
+.see-more-button:hover {
+	scale: 1.1;
 }
 
 /* footer */
