@@ -1,3 +1,7 @@
+## Live site
+
+https://chris-wagg.github.io/travel-v2/
+
 This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
 
 ## Getting Started
@@ -6,17 +10,9 @@ First, run the development server:
 
 ```bash
 npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
 ```
 
 Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
-
-You can start editing the page by modifying `app/page.js`. The page auto-updates as you edit the file.
 
 Photo by <a href="https://unsplash.com/@tokeller?utm_content=creditCopyText&utm_medium=referral&utm_source=unsplash">Tobias Keller</a> on <a href="https://unsplash.com/photos/landscape-photography-of-lake-and-mountain-73F4pKoUkM0?utm_content=creditCopyText&utm_medium=referral&utm_source=unsplash">Unsplash</a>
 
