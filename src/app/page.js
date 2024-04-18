@@ -9,7 +9,9 @@ export default function Home() {
 				<div className='hero-background background-position full-width full-height'></div>
 				<header className='header-container header-row breakout'>
 					<h1 className='hero-title'>M.E. Travel</h1>
-					<nav className='top-nav-container smoke-background'>
+					<nav
+						aria-label='main navigation'
+						className='top-nav-container smoke-background'>
 						<button>About</button>
 						<button>Services</button>
 						<button>Tours</button>
@@ -56,6 +58,7 @@ export default function Home() {
 					</div>
 				</section>
 			</main>
+			<div></div>
 			<div className='locations-text-container'>
 				<div>
 					<h2>Our best Locations</h2>
@@ -134,7 +137,8 @@ export default function Home() {
 									height='24'
 									viewBox='0 0 24 24'
 									fill='none'
-									xmlns='http://www.w3.org/2000/svg'>
+									xmlns='http://www.w3.org/2000/svg'
+									aria-hidden='true'>
 									<path
 										fillRule='evenodd'
 										clipRule='evenodd'
@@ -162,7 +166,8 @@ export default function Home() {
 									height='24'
 									viewBox='0 0 24 24'
 									fill='none'
-									xmlns='http://www.w3.org/2000/svg'>
+									xmlns='http://www.w3.org/2000/svg'
+									aria-hidden='true'>
 									<path
 										fillRule='evenodd'
 										clipRule='evenodd'
@@ -190,7 +195,8 @@ export default function Home() {
 									height='24'
 									viewBox='0 0 24 24'
 									fill='none'
-									xmlns='http://www.w3.org/2000/svg'>
+									xmlns='http://www.w3.org/2000/svg'
+									aria-hidden='true'>
 									<path
 										fillRule='evenodd'
 										clipRule='evenodd'
@@ -218,7 +224,8 @@ export default function Home() {
 									height='24'
 									viewBox='0 0 24 24'
 									fill='none'
-									xmlns='http://www.w3.org/2000/svg'>
+									xmlns='http://www.w3.org/2000/svg'
+									aria-hidden='true'>
 									<path
 										fillRule='evenodd'
 										clipRule='evenodd'

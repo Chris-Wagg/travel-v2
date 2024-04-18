@@ -572,6 +572,7 @@ button {
 	display: flex;
 	gap: 1rem;
 	padding: 1rem;
+	flex-wrap: wrap;
 }
 
 .email-input > button {
@@ -589,6 +590,7 @@ button {
 	display: flex;
 	align-items: center;
 	justify-content: center;
+	flex-wrap: wrap;
 }
 
 input {
@@ -662,9 +664,9 @@ input {
 	}
 }
 
-@media (max-width: 320px) {
+@media (max-width: 425px) {
 	.locations-text-container {
-		margin-top: 42rem;
+		margin-top: 20rem;
 		margin-right: 1rem;
 	}
 }
